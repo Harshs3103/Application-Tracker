@@ -6,6 +6,12 @@ A full stack web app to track job applications in one place. Users can sign up, 
 
 > The backend runs on a free Render plan, so the first request after a period of inactivity can take around 50 seconds.
 
+## Screenshots
+
+| Login | Jobs page |
+|---|---|
+| ![Login](screenshots/login.png) | ![Jobs](screenshots/jobs.png) |
+
 ## Features
 
 - Signup and login with JWT authentication
