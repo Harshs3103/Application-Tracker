@@ -30,5 +30,8 @@ model Job{
   appliedDate DateTime @default(now())
   userId Int 
   user User @relation(fields: [userId] ,references: [id])
-
+    location      String?
+  salary        String?
+  notes         String?
+  interviewDate DateTime?
 }

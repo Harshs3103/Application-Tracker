@@ -2,6 +2,7 @@ import prisma from "../prisma.js";
 import { jobSchema, updateJobSchema } from "../validators.js";
 
 export const createJob = async (req, res) => {
+console.log("BODY:", req.body);
   try {
     const result = jobSchema.safeParse(req.body);
     if (!result.success) {
